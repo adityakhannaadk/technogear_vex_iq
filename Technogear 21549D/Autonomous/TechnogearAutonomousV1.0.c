@@ -54,6 +54,8 @@ void thirdPost_1(){
 	grabRings();
 }
 
+
+//collect rings from all three post
 void ringCollection(){
 
 
@@ -68,3 +70,4 @@ task main()
 	doActionUntilDistance(turnLeft_Const, 320);
 	ringCollection();
 }
+
